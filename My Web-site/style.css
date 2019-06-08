@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#f4f4f4;
+  color: #555;
+}
+.container1 h1
+{
+  background-color:gray;
+  color: white;
+  font-style: italic;
+  font-family: serif;
+  font-size: 50px;
+  padding:30px;
+  padding-left:100px;
+}
+#navbar{
+  background-color:lightgreen;
+  color:black;
+  padding:10px;
+}
+#navbar li{
+  display:inline;
+  padding:10px;
+}
+#navbar a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-left:100px;
+}
+#navbar a:hover{
+  color: red;
+}
+#showcase{
+  background-image: url(Image/showcase.jpg);
+  color:white;
+  font-size:30px;
+  font-style: oblique;
+  padding:110px;
+  text-align: center;
+  line-height: 1.6em;
+}
+#main{
+  float:left;
+  width:60%;
+  font-size: 30px;
+  border: 1px solid black;
+  padding:30px 30px;
+  margin-top:30px;
+  margin-left: 30px;
+  margin-right: 0px;
+  box-sizing: border-box;
+}
+#main a{
+  text-decoration: none;
+}
+#sidebar{
+  float:right;
+  width:40%;
+  border:20px;
+  padding:10px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  width: 400px;
+  height:700px;
+  background-image: url(Image/gourab.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right:40px;
+  margin-top: 30px;
+}
+#main-footer {
+  background-color:#333;
+  color: white;
+  font-style: italic;
+  font-family: serif;
+  font-size: 20px;
+  padding:30px;
+  margin-top: 800px;
+  text-align: center;
+}
+@media(max-width:600px){
+  #main{
+    width:100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
+}
